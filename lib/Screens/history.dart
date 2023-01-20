@@ -21,7 +21,7 @@ class history_page extends StatelessWidget {
         backgroundColor: Colors.black87,
         elevation: 25,
         centerTitle: true,
-        title: Text(
+        title: const Text(
           "History"
         ),
       ),

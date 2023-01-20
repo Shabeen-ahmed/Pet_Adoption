@@ -4,7 +4,6 @@ import 'package:nymble_labs_pet_adoption/Utils/common widgets/border_box.dart';
 import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
 import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
 import 'package:nymble_labs_pet_adoption/Utils/common%20widgets/spacing.dart';
-import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
 import 'package:provider/provider.dart';
 import 'package:nymble_labs_pet_adoption/Provider/category_provider.dart';
 

@@ -2,13 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:nymble_labs_pet_adoption/Screens/Components/petCard/petcard_adopted.dart';
 import 'package:nymble_labs_pet_adoption/Screens/Components/petCard/petcard_not_adopted.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
-import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
-import 'pet_card_details.dart';
-import 'pet_card_image.dart';
 import 'package:provider/provider.dart';
 import 'package:nymble_labs_pet_adoption/Provider/pet_provider.dart';
-import 'package:provider/provider.dart';
-import 'package:nymble_labs_pet_adoption/Provider/category_provider.dart';
 
 //Pet Card Tile
 class PetCardTile extends StatefulWidget {

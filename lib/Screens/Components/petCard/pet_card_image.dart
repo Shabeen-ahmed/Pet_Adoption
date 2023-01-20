@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
-import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
+
 //Image displayed on the Pet card in the homepage
 class PetCardImage extends StatelessWidget {
   const PetCardImage({

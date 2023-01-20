@@ -1,18 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:nymble_labs_pet_adoption/Screens/home_page.dart';
 import 'package:nymble_labs_pet_adoption/Provider/pet_provider.dart';
 import 'package:nymble_labs_pet_adoption/Screens/splash_screen.dart';
 import 'package:provider/provider.dart';
 import 'Provider/category_provider.dart';
-import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
-import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
-import 'package:nymble_labs_pet_adoption/Provider/pet_provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
-import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
-
-
 
 void main() {
   runApp(

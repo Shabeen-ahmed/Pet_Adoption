@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';

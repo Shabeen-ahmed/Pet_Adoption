@@ -1,15 +1,10 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:nymble_labs_pet_adoption/Utils/common widgets/border_box.dart';
 import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
-import 'package:nymble_labs_pet_adoption/Utils/sample_data.dart';
 import 'package:provider/provider.dart';
 import 'package:nymble_labs_pet_adoption/Provider/pet_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:nymble_labs_pet_adoption/Screens/pet_details_page.dart';
 import 'package:confetti/confetti.dart';
 
 class CustomBottomBar extends StatefulWidget {

@@ -3,8 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:nymble_labs_pet_adoption/Screens/Components/petCard/petcard_not_adopted.dart';
 import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_model.dart';
-import 'pet_card_details.dart';
-import 'pet_card_image.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 // Pet card for adopted pets which is displayed in the pet list by greying out
 class petCardadopted extends StatefulWidget {
