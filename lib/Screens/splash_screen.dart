@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Future<List<Pet>> getAdoptedPets() async {
     //retrieves stored pets id and stores it into list of strings
     List<String> adoptedPetsIds = await getAdoptedPetsIdfromStorage();
-    PetProvider petProvider = new PetProvider();
+    PetProvider petProvider = PetProvider();
     //Calling petProvider and passing each pet id which is already adopted
     petProvider.alreadyadoptedpets(adoptedPetsIds);
     List<Pet> adoptedPets = [];

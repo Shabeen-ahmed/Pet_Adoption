@@ -3,8 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nymble_labs_pet_adoption/Utils/pet_utils.dart';
 import 'package:nymble_labs_pet_adoption/Utils/kconstants.dart';
-import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   SharedPreferences.setMockInitialValues({'token': '12345678'});

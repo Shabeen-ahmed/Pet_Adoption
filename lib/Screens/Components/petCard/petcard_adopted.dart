@@ -20,7 +20,7 @@ class _petCardadoptedState extends State<petCardadopted> {
     final Size size = MediaQuery.of(context).size;
     return Container(
       margin: const EdgeInsets.only(left: 15, right: 10, bottom: 25),
-      child: Container(
+      child: SizedBox(
         height: size.height * .25,
         child: Stack(
           children: <Widget>[
@@ -68,7 +68,7 @@ class _petCardadoptedState extends State<petCardadopted> {
                         ]),
                     colors: [
                       primaryColor,
-                      Color(0xfff5a54a),
+                      const Color(0xfff5a54a),
                     ],
                   )
                 ],

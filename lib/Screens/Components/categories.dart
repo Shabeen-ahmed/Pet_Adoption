@@ -33,7 +33,7 @@ class _CategoriesState extends State<Categories> {
             child: Container(
 
       decoration: BoxDecoration(
-          color: isDarkMode?Color(0xFF262626):Colors.white,
+          color: isDarkMode?const Color(0xFF262626):Colors.white,
           borderRadius: BorderRadius.circular(18),
           border: Border.all(),
           boxShadow: myShadow
@@ -60,14 +60,14 @@ class _CategoriesState extends State<Categories> {
                 child: Column(
                   children: <Widget>[
                     BorderBox(
-                      color: category['active'] ? primaryColor : isDarkMode?Color(0xFF262626):Colors.white,
+                      color: category['active'] ? primaryColor : isDarkMode?const Color(0xFF262626):Colors.white,
                       padding: const EdgeInsets.all(8.0),
                       width: 65.0,
                       height: 65.0,
                       child: Image(
                         image: AssetImage('${category["icon"]}'),
                         fit: BoxFit.contain,
-                        color: category['active'] ? isDarkMode?Color(0xFF262626):Colors.white : primaryColor,
+                        color: category['active'] ? isDarkMode?const Color(0xFF262626):Colors.white : primaryColor,
                       ),
                     ),
                     addVerticalSpace(12.0),

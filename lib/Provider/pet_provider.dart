@@ -14,13 +14,13 @@ class PetProvider extends ChangeNotifier {
   List<Pet> pets = _pets;
 
   // A method to mark the already adopted pets as adopted
-  void alreadyadoptedpets(List<String> already_adoptedpet) {
+  void alreadyadoptedpets(List<String> alreadyAdoptedpet) {
     // Filter the pets where the id is 1
     pets.where((Pet) => Pet.id=='1');
     // Iterate through the pets
     for(Pet pet in pets ) {
       // Check if the pet id is in the already adopted pet list
-      if ( pet.id == already_adoptedpet) {
+      if ( pet.id == alreadyAdoptedpet) {
         // Mark the pet as adopted
         pet.isadopted=true;
       }

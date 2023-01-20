@@ -9,7 +9,7 @@ import 'package:confetti/confetti.dart';
 
 class CustomBottomBar extends StatefulWidget {
   CustomBottomBar({required this.pet});
-  PetProvider petProvider = new PetProvider();
+  PetProvider petProvider = PetProvider();
   Pet pet;
   @override
   State<CustomBottomBar> createState() => _CustomBottomBarState();
@@ -51,7 +51,7 @@ class _CustomBottomBarState extends State<CustomBottomBar> {
               ),
               // Gesture detector to handle the tap on the button
               child: GestureDetector(
-                child:widget.pet.isadopted ? const adoptedbutton(): notadoptedbutton(),
+                child:widget.pet.isadopted ? const adoptedbutton(): const notadoptedbutton(),
                 onTap: (){
                   provider.adoptPet(widget.pet);
                   setState(() {
@@ -59,7 +59,7 @@ class _CustomBottomBarState extends State<CustomBottomBar> {
                     widget.pet.isadopted?widget.pet.isadopted:widget.pet.isadopted= !widget.pet.isadopted;
                     // Saving the adopted pet in shared preferences
                     saveAdoptedPets(widget.pet.id);
-                    print('${widget.pet.name}');
+                    print(widget.pet.name);
                     playconfetti();
                   });
                 },
@@ -118,7 +118,7 @@ class adoptedbutton extends StatelessWidget {
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
     return AnimatedContainer(
-      duration: Duration(milliseconds:500 ),
+      duration: const Duration(milliseconds:500 ),
       width: size.width * .65,
       height: 70.0,
       decoration: BoxDecoration(

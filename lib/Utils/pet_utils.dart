@@ -14,7 +14,7 @@ Pet getPetById(String id) {
   }
   //if pet not found return a default pet
   return Pet( name: "Not Found",   id: "0",   age: 0, species: "", isadopted: false, animal: '',
-      gender: IconData(0), price: 0,  images: []);
+      gender: const IconData(0), price: 0,  images: []);
 }
 
 

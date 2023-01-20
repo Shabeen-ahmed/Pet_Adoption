@@ -24,7 +24,7 @@ class _PetListState extends State<PetList> {
             height: size.height * .6,
             decoration: BoxDecoration(
                 border: Border.all(),
-                color: isDarkMode ? Color(0xffab945b) : Colors.white,
+                color: isDarkMode ? const Color(0xffab945b) : Colors.white,
                 borderRadius: BorderRadius.circular(25),
                 boxShadow: myShadow),
             child: ListView.builder(

@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         onTap: () => Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => history_page(),
+                            builder: (context) => const history_page(),
                           ),),
                       )
                     ]),
@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                   addVerticalSpace(20),
                   const SearchBar(),
                   addVerticalSpace(20.0),
-                  Categories(),
+                  const Categories(),
                   addVerticalSpace(10),
                   Expanded(child: PetList()),
                 ]),

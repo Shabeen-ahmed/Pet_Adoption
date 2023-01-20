@@ -49,7 +49,7 @@ class _PetDetailsPageState extends State<PetDetailsPage> {
                 controller: _pageViewController,
                 itemBuilder: (context, index) {
                   return Hero(
-                    tag: '${widget.pet.name}',
+                    tag: widget.pet.name,
                     child: Container(
                       padding: const EdgeInsets.all(4.0),
                       // Display the image

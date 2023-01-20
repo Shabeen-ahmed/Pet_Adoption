@@ -18,7 +18,7 @@ class PetCardImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Hero(
-      tag: '${pet.name}',
+      tag: pet.name,
       child: Stack(
         children: <Widget>[
         Container(
@@ -29,9 +29,9 @@ class PetCardImage extends StatelessWidget {
                 boxShadow: myShadow,
                 image: DecorationImage(
                     fit: BoxFit.cover, image:  AssetImage(pet.images[0]),),
-                borderRadius: BorderRadius.all(Radius.circular(18.0)),
+                borderRadius: const BorderRadius.all(Radius.circular(18.0)),
             ),
-            child: SizedBox()
+            child: const SizedBox()
         ),
         ],
       ),
